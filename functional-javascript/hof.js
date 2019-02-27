@@ -7,8 +7,8 @@ function repeat(multiply, x) {
   // Do not remove the line below
   module.exports = repeat
 
-  let doubler = repeat(4);
+  let doubler = repeat(2);
 
-  console.log(doubler(2));
+  console.log(doubler(5));
   
 
