@@ -15,13 +15,14 @@ var obj = {
     ]
   }
 
+
 var arr = obj.messages.map(x => x.message)
 var getShortMessages = x => x.filter(y => y.length <= 50)
 module.exports = getShortMessages
 
 var res = getShortMessages(arr)
 
-console.log(res)
+console.log(getShortMessages(obj))
 
 
 
