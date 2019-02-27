@@ -1,32 +1,14 @@
-/*function noisy(f) {
-    return (...args) => {
-      console.log("calling with", args);
-      let result = f(...args);
-      console.log("called with", args, ", returned", result);
-      return result;
-    };
-  }
-  module.exports = noisy
 
-  noisy(Math.cos)(3, 2, 1);*/
 
-/*
-  function repeat(operation, num) {
-    if (num <= 0) return
-    operation()
-    return repeat(operation, --num)
+function repeat(multiply, x) {
+    return x => multiply * x
   }
 
+  // Do not remove the line below
   module.exports = repeat
-*/
 
-function sing (callback){
-    console.log('lallala');
-    if(callback) callback();
-}
+  let doubler = repeat(4);
 
-function hi () {
-    console.log('hola');
-}
+  console.log(doubler(2));
+  
 
-console.log(sing())
