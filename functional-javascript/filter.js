@@ -22,7 +22,7 @@ module.exports = getShortMessages
 
 var res = getShortMessages(arr)
 
-console.log(getShortMessages(obj))
+console.log(getShortMessages(res))
 
 
 
