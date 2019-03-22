@@ -6,5 +6,5 @@ function sum (m) {
 
 var a = sum(8)
 
-console.log(a);
+console.log(a(4));
 

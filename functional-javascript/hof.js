@@ -1,6 +1,6 @@
 
 
-function repeat(multiply, x) {
+function repeat(multiply) {
     return x => multiply * x
   }
 
@@ -10,5 +10,5 @@ function repeat(multiply, x) {
   let doubler = repeat(2);
 
   console.log(doubler(5));
-  
+
 

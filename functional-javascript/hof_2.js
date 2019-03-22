@@ -23,6 +23,7 @@ var animals = [
   })
 */
 
+
 var isDog = function(animal){
   return animal.species === 'Dog'
 }

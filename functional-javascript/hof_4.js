@@ -1,4 +1,6 @@
 let things = ['car', 'bicicle' , 'house' , 'Tree', 'Building']
+console.log(things.sort());
+
 console.log(things.sort(function(a,b){
     let x = a.toLowerCase(),
         y = b.toLowerCase()
@@ -11,3 +13,4 @@ console.log(things.sort(function(a,b){
 
        return 0
 }));
+
